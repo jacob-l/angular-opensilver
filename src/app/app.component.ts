@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OpensilverService } from './services/opensilver.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-hello-world';
+
+  constructor(private opensilverService: OpensilverService) { }
+
+  public isOpenSilverVisible(): boolean {
+    return this.opensilverService.openSilverVisibility;
+  }
 }

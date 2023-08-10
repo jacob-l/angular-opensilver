@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\components",
+    "\\app\\components\\dummy-first",
+    "\\app\\components\\opensilver",
+    "\\app\\components\\opensilver-activator",
+    "\\app\\services",
+    "\\assets",
+    "\\environments"
+  ],
+  "SelectedNode": "\\app\\app.component.ts",
+  "PreviewInSolutionExplorer": false
+}
